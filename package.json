@@ -1,0 +1,14 @@
+{
+  "name": "loginform",
+  "version": "1.0.0",
+  "description": "login form automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "dipaferdian",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.5.0"
+  }
+}
