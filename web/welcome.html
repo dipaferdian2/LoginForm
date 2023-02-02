@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome Page</title>
+</head>
+<body>
+  <h1>Welcome Back!</h1>
+
+  <form id="logout-form">
+    <p>Are you sure you want to log out?</p>
+    <input id="logout" type="button" value="Yes" onclick="handleLogout()">
+    <input type="button" value="No" onclick="closeForm()">
+  </form>
+
+  
+  <script>
+    function handleLogout() {
+      // perform logout logic here, for example:
+      // delete the user's session or access token
+      // redirect to the login page
+      window.location.href = 'index.html';
+    }
+  
+    function closeForm() {
+      // close the form, for example:
+      // hide the form or remove it from the DOM
+      document.getElementById("logout-form").style.display = "none";
+    }
+  </script>
+</body>
+</html>
